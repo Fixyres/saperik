@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-token = os.getenv('6452818475:AAFVsOYdqA1TGXZZpP_Cj6fCLDS2GvIagC8')
+token = os.getenv('64AFVsOYdqA1TGXZZpP_Cj6fCLDS2GvIagC8')
 bot = telebot.TeleBot(token)
 bot_users = {}
 
